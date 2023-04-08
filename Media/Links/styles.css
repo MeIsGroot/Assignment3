@@ -131,7 +131,7 @@ a[href$=".png" ] {
 }
 
 .body1{
-		background-image: url("Media/Photos/Background.jpg");
+		background-image: url("../Photos/Background.jpg");
 		background-position: center;
 		background-size: cover; 
 		width: 100%;
@@ -140,7 +140,7 @@ a[href$=".png" ] {
 }
 
 .body2{
-		background-image: url("Media/Photos/5432558.jpg");
+		background-image: url("../Photos/5432558.jpg");
 		background-position: center;
 		background-size: cover;
 		width: 100%;
@@ -149,7 +149,7 @@ a[href$=".png" ] {
 }
 
 .body3{
-		background-image: url("Media/Photos/Background2.jpg");
+		background-image: url("../Photos/Background2.jpg");
 		background-position: center;
 		background-size: cover; 
 		width: 100%;
@@ -270,10 +270,6 @@ a:active {
 		min-height: 300px;
 		max-width: 500px;
 		padding: -5px;
-}
-
-img:hover{
-		behavior: url(javascript.js);
 }
 
 .imgright{

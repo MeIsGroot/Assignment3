@@ -215,11 +215,11 @@ function colorchange2(){
 }
 
 function audiochanger(){
-    document.getElementById("my-audio").setAttribute('src', 'Media/Audios/Audio-3.mp3');
+    document.getElementById("my-audio").setAttribute('src', '../Audios/Audio-3.mp3');
 }
 function audiochanger2(){
-    document.getElementById("my-audio").setAttribute('src', 'Media/Audios/audio2.mp3');
+    document.getElementById("my-audio").setAttribute('src', '../Audios/audio2.mp3');
 }
 function audiochanger3(){
-    document.getElementById("my-audio").setAttribute('src', 'Media/Audios/audio1.mp3');
+    document.getElementById("my-audio").setAttribute('src', '../Audios/audio1.mp3');
 }
